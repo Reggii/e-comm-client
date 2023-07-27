@@ -1,0 +1,198 @@
+.product {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 600px;
+    position: relative;
+    right: 250px;
+    margin-top: 100px;
+    gap: 20px;
+    
+    .leftImg {
+        flex: 1;
+        .secondaryImg {
+            flex: 1;
+            img {
+                cursor: pointer;
+                width: 150px;
+                height: 200px;
+                object-fit: cover;
+            }
+        }
+    }
+    .rightImg {
+        flex: 5;
+        .mainImg {
+            flex: 5;
+            img {
+                cursor: pointer;
+                width: 400px;
+                height: 555px;
+                object-fit: cover;
+            }
+        }
+    }
+
+    .rightDetails {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 0.5rem;
+
+        .title {
+            top: -30px;
+            position: relative;
+            width: 500px;
+        }
+        .price {
+            top: -60px;
+            left: 5px;
+            font-size: 24px;
+            position: relative;
+            font-weight: 700;
+        }
+
+        .description {
+            left: 3px;
+            font-size: 15px;
+            position: relative;
+            top: -70px;
+            color:whitesmoke;
+        }
+
+        .quantity {
+            display: flex;
+            flex-direction: row;
+            gap: 5px;
+            position: relative;
+            top: -55px;
+            left: 5px;
+
+            .minus {
+                font-size: 15px;
+                color: rgb(255, 255, 255);
+                font-weight: 900;
+                background-color: #16973a;
+                outline: none;
+                border: none;
+                width: 40px;
+            }
+            .minus:hover {
+                background-color: #2f8e4a;
+                cursor: pointer;
+            }
+            .minus:active {
+                background-color: #12782f;
+            }
+            .plus {
+                font-size: 15px;
+                color: rgb(255, 255, 255);
+                font-weight: 900;
+                background-color: #16973a;
+                outline: none;
+                border: none;
+                width: 40px;
+            }
+            .plus:hover {
+                background-color: #2f8e4a;
+                cursor: pointer;
+            }
+            .plus:active {
+                background-color: #12782f;
+            }
+            .quantityInput {
+                position: relative;
+                width: 53px;
+                font-size: 15px;
+                text-align: center;
+            }
+
+
+        }
+
+        .addCart {
+            font-size: 16px;
+            position: relative;
+            top: -35px;
+            left: 5px;
+            color: rgb(255, 255, 255);
+            font-weight: 900;
+            background-color: #16973a;
+            outline: none;
+            border: none;
+            border-radius: 6px;
+            width: 150px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            padding: 4px;
+        }
+
+        .addCart:hover {
+            background-color: #2f8e4a;
+            cursor: pointer;
+        }
+
+        .addCart:active {
+            background-color: #12782f;
+        }
+
+        .link {
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            top: -25px;
+
+            .wishlist {
+                color: white;
+                font-size: 15px;
+                width: fit-content;
+                cursor: pointer;
+                
+                .wishlisticon {
+                    color:#2f8e4a;
+                    position: relative;
+                    cursor: pointer;
+                    top: 8px;
+                    font-size: 23px;
+                }
+            }
+            .compare {
+                color: white;
+                font-size: 15px;
+                
+                .compareicon {
+                    color:#2f8e4a;
+                    position: relative;
+                    cursor: pointer;
+                    top: 8px;
+                    font-size: 23px;
+                }
+            }
+        }
+
+        .productDetails {
+            position: relative;
+            top: -10px;
+            color: whitesmoke;
+        }
+        
+        hr {
+            margin-bottom: 1em;
+            width: 600px;
+            background-color: whitesmoke;
+            position: relative;
+            left: -1px;
+            top: -5px;
+          }
+
+        .extraDetails {
+            position: relative;
+            top: -10px;
+            margin-top: em;
+            color: whitesmoke;
+        }
+    }
+
+}

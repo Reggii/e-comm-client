@@ -1,0 +1,41 @@
+.Categories {
+    display: flex;
+    gap: 20px;
+    margin: 20px;
+
+    .col {
+        flex:1;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .col-l {
+        flex:2;
+    }
+
+    .row {
+        flex: 1;
+        display: flex;
+        gap: 10px;
+        position: relative;
+
+        a {
+            display: contents;
+          }
+                    
+        button {
+            background-color: #2f8e4a;
+            border: none;
+            padding: 10px;
+            color: rgb(255, 255, 255);
+            font-size: 22px;
+            font-weight: 600;
+            cursor: pointer;
+            position: absolute;
+        }
+
+
+    }
+
+}

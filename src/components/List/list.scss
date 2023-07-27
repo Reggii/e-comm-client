@@ -1,0 +1,66 @@
+$a-tags: 'a, a:active, a:hover, a:visited';
+$a-tags-hover: 'a:active, a:hover';
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: -50px;
+    flex-wrap: wrap;
+
+    .cardHome {
+        width: 310px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        object-fit: contain;
+        position: relative;
+        z-index: 3;
+        align-items: center;
+        justify-content: center;
+
+    .imageContainer {
+        width: 100%;
+        height: 300px;
+        object-fit: contain;
+        border-radius: 10px;
+        position: relative;
+        margin-top: 20px;
+
+        &:hover {
+            .image2 {
+                z-index: 2;
+            }
+        }
+
+        img {
+            width: 90%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+        }
+
+        .image {
+            z-index: 1;
+        }
+        }
+        
+    }
+
+    a:link { 
+        text-decoration: none; 
+        color: whitesmoke;
+    }
+    a:visited { 
+        text-decoration: none; 
+        color: whitesmoke;
+    }
+    a:hover { 
+        text-decoration: none; 
+        color: whitesmoke;
+    }
+    a:active { 
+        text-decoration: none; 
+        color: whitesmoke;
+    }
+
+}

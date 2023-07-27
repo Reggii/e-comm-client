@@ -1,0 +1,101 @@
+.cart {
+    z-index: 1000;
+    background-color: #374247;
+    position: absolute;
+    top: 50px;
+    right: 35px;
+    width: 550px;
+    white-space:break-spaces;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #2f8e4a;
+
+    .cartContent {
+        display: flex;
+        flex-direction: column;
+        margin: 25px;
+
+        .cartHeader {
+            font-size: 18px;
+        }
+
+        .item {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            margin: 10px 0 0 0;
+
+            .cartImg {
+                width: 130px;
+                height: 150px;
+                object-fit: cover;
+            }
+
+            .cartDescription {
+                .cartItemTitle{
+                    position: relative;
+                    top: -15px;
+                    font-size: 20px;
+                }
+                .itemDescription {
+                    position: relative;
+                    top: -25px;
+                }
+                .price {
+                    position: relative;
+                    top: -10px;
+                }
+            }
+            .deleteIcon {
+                position: relative;
+                top: 44px;
+                color: rgb(189, 55, 55);
+                font-size: 25px;
+                cursor: pointer;
+            }
+            .deleteIcon:hover {
+                color:  rgb(201, 76, 76);
+            }
+
+        }
+    }
+
+    .total {
+        margin: 10px 0 2px 0;
+        font-size: 16px;
+
+        .amount {
+            float: right;
+            font-size: 20px;
+            font-weight: 600;
+        }
+    }
+    .checkoutButton {
+        width: 130px;
+        height: 25px;
+        font-size: 16px;
+        background-color: #2f8e4a;
+        border: none;
+        color: whitesmoke;
+        font-weight: 500;
+        border-radius: 6px;
+        cursor: pointer;
+        position: relative;
+        left: -3px;
+    }
+    .checkoutButton:hover {
+        background-color: #2b7d42;
+    }
+    .reset {
+        position: relative;
+        top: 12px;
+        color: rgb(189, 55, 55);
+        font-size: 14px;
+        cursor: pointer;
+        width: max-content;
+    }
+    .reset:hover {
+        color: rgb(201, 76, 76);
+    }
+}

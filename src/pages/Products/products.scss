@@ -1,0 +1,62 @@
+.products {
+    color: white;
+    margin-left: 200px;
+    margin-top: 80px;
+    gap: 10px;
+    display: flex;
+    flex-direction: row;
+    cursor: default;
+    min-height: 60rem;
+    position: relative;
+    right: 3rem;
+
+    .left {
+        align-self: flex-start;
+        position: sticky;
+        top: 50px;
+    }
+
+    h2 {
+        color: #44cf6c;
+    }
+    .filter {
+        accent-color: #44cf6c;
+        position: sticky;
+        gap: 10px;
+
+        .inputItem {
+            position: relative;
+            font-size: 17px;
+        }
+        span {
+            bottom: 10px;
+            position: absolute;
+            top: 50px;
+        }
+        
+        .min {
+            left: -30px;
+            top: 50px;
+        }
+        .max {
+            left: 175px;
+            top: 50px;
+        }
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: -150px;
+
+        .productsHeader {
+            position: relative;
+            scale: 0.6;
+            width: 1500px;
+            bottom: 50px;
+            right: 300px;
+        }
+    }
+
+}

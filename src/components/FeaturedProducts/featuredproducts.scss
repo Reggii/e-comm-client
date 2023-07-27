@@ -1,0 +1,53 @@
+.featuredProducts {
+    margin: 100px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;   
+    justify-content: center;
+    max-width: 1200px;
+    color: whitesmoke;
+
+    .top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 50px;
+        word-wrap:normal;
+        width: 100%;
+
+        h1 {
+            flex: 2;
+            text-transform: capitalize;
+        }
+
+        p {
+            flex: 3;
+            color:rgb(194, 194, 194);
+        }
+    }
+
+    .bottom {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+
+    a:link { 
+        text-decoration: none; 
+        color: whitesmoke;
+    }
+    a:visited { 
+        text-decoration: none; 
+        color: whitesmoke;
+    }
+    a:hover { 
+        text-decoration: none; 
+        color: whitesmoke;
+    }
+    a:active { 
+        text-decoration: none; 
+        color: whitesmoke;
+    }
+}
