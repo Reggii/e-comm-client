@@ -18,7 +18,7 @@ export default function Navbar() {
             <div className="wrapper">
                 <div className="left">
                     <div className="item">
-                        <img src="http://localhost:3000/img/en.png" alt="" />
+                        <img src="img/en.png" alt="" />
                         <KeyboardArrowDownIcon/>
                     </div>
                     <div className="item">
